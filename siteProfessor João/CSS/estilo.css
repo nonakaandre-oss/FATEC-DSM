@@ -1,0 +1,15 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: justify;
+}
+h2, h3{
+    text-align: center;
+}
+span{
+    color: red;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-style: italic;
+}
