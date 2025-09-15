@@ -119,3 +119,29 @@ table{
     text-align: center;
     margin: auto;
 }
+label{
+    margin-bottom: 1em;
+    border: 2px solid #000;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #000;
+    padding: 0.2em  
+    
+}
+input{
+    margin-top: 1em;
+    border: 2px solid #000;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #000;
+    padding: 0.2em   
+}
+textarea{
+    margin-top: 1em;
+    border: 2px solid #000;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #000;
+    padding: 0.2em   
+}
+#enviar{
+    background-color: rgb(160, 154, 154);
+   width: 6em;
+}
