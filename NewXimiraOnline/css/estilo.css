@@ -3,6 +3,9 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header{
+    
+}
 header div{
     float: left;
 }
@@ -84,4 +87,23 @@ body{
 .btGd{
     margin-top: 1em;
     width: 94%;
+}
+.leftFoot{
+float: left;
+}
+.rightFoot{
+float: right;
+}
+.rightFoot ul{
+    list-style: none;
+}
+.rightFoot ul li{
+    float: left;
+    margin-right: 10px;
+}
+footer{
+    margin-top: 1em;
+    padding-top: 1.5em;
+    height: 2em;
+    border-top: 1px solid #393474;
 }
