@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header div{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    padding-top: 3.2em;
+}
+header nav ul li{
+    float: left;
+    margin-right: 0.5em;
+}
+header nav a{
+    text-decoration: none;
+    color: #eee;
+}
+body{
+    padding: 0.5em 1em;
+    background-color: #0C0B1A;
+    color: #eee;
+}
+.limpar{
+    clear: both;
+}
