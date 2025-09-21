@@ -1,8 +1,5 @@
 *{
 font-family: Arial, Helvetica, sans-serif;
-
-}
-body{
     margin: 0;
     padding: 0;
 }
@@ -12,35 +9,18 @@ body{
     margin: 0.2em;
     border: 2px solid #647FBC;
     border-radius: 3px;
-   
-}
-#logo{
-align-items: center;
-width: 100%;
-height: 10em;
-object-fit: contain;
-}
-#imagem1{
-align-items: center;
-width: 100%;
-height: 15em;
-object-fit: contain;
-
 }
 #cabecalho{
-text-align: center;
-font-style: bold;
-font-size: 3.5em;
-font-family: cursive;
-margin-top: 0;
-margin-bottom: auto;
-
+float: right;
+ width: 50%;
+font-size: 3em;
+font-family: cursive;   
 }
-#cabecalho2{
-text-align: center;
-font-style: bold;
-font-size: 2.5em;
-font-family: cursive;  
+#logo{
+width: 100%;
+height: 10em;
+margin: 0 auto;
+
 }
 nav a:link, nav a:visited{
     color: #00801c;
@@ -71,6 +51,44 @@ nav a{
     box-shadow: 1px 1px 1px #000;
     padding: 0.4em
 }
+#parte2{
+    background-color: #F5F5F5;
+    padding: 0.5em;
+    margin: 0.1em;
+    border: 2px solid #647FBC;
+    border-radius: 2px;
+}
+#imagem1{
+    float: left;
+    width: 30%;
+    height: 30em;
+    margin: 0 auto;
+    padding-top: 3em;
+    border:2x solid #647FBC;
+    border-radius: 2px;
+}
+#cabecalho2{
+    float: left;
+    margin: auto;
+    padding: 2em;
+    width: 65%;
+    height: 30em;
+}
+#cabecalho2 h1{
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    font-size: 3em;
+}
+#cabecalho2 p{
+    font-family: cursive;
+    text-wrap: balance;
+    font-size: 1.8em;
+    width: 60%;
+    text-align: center;
+    padding-left: 6.5em;
+    
+}
 article{
     text-align: center;
     background-color: #F5F5F5;
@@ -78,14 +96,6 @@ article{
     margin: 0.1em;
     border: 2px solid #647FBC;
     border-radius: 3px;   
-}
-#parte2{
-    text-align: center;
-    background-color: #F5F5F5;
-     padding: 0.3em;
-    margin: 0.1em;
-    border: 2px solid #647FBC;
-    border-radius: 3px;
 }
 section{
     text-align: center;
@@ -101,10 +111,14 @@ section{
     box-shadow: 1px 1px 1px #000;
     padding: 0em  
 }
-li{
-
-    
-    
+ul{
+   width: 26%;
+   margin: 0 auto; 
+   padding: 1em;
+}
+#navInfo{
+    margin: 0.4em;
+    padding: 0.6em;
 }
 #ajudar{
     text-align: center;
@@ -148,4 +162,19 @@ footer{
     text-align: center;
     font-size: medium;
     font-style: bold;
+}
+.limpar{
+    clear: both;
+}
+.leftFoot{
+float: left;
+margin: 1em;
+padding: 2em;
+
+}
+.rightFoot{
+float: right;
+margin: 1em;
+padding: 2em;
+
 }
