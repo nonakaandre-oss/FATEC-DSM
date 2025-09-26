@@ -15,4 +15,18 @@
     margin: 10px;
     border: 2px solid #00f;
     background-color: #fff;
+    flex-grow: 1;
+}
+.ordem{
+    order: -1;
+}
+.crescer{
+    flex-shrink: 0;
+}
+.base{
+    flex-basis: 15%;
+}
+.sozinho{
+    height: 50px !important;
+    align-self: center;
 }
